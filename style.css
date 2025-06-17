@@ -1,0 +1,230 @@
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+.borda{
+    margin-bottom: 400px;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 250px;
+}
+.bordacima{
+    z-index: 5;
+    border-bottom: 5px solid #E7BB00;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    top: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150px;
+    margin-left: 272px;
+    display:grid;
+    grid-template-columns: 100px 400px 300px 500px 400px 500px;
+    grid-template-rows: 100px 120px;
+}
+
+#mousecima{
+    background-color: rgb(0, 0, 0);
+    border-top: 5px solid #E7BB00;
+    border-bottom: 5px solid #E7BB00;
+    border-left: 5px solid #E7BB00;
+    border-right: 5px solid #E7BB00;
+    width: 200px;
+    height: 210px;
+    grid-template-columns: 190px;
+    grid-template-rows: 80px 80px 80px;
+    position: sticky;
+    top: 14.9%;
+}
+.lista{
+    width: 160px;
+    height: 340px;
+    grid-template-columns: 100px;
+    grid-template-rows: 50px 50px;
+    z-index: 10;
+}
+.topiclista{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.image{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.user{
+    display:grid;
+    grid-template-columns: 100px 200px;
+}
+
+.pesquisa{
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid #E7BB00;
+}
+
+.image{
+    margin-top: 20px;
+    height: 90px;
+    width: 90px;
+}
+
+.textouser {
+    margin-top: 60px;
+    font-size: 16px;
+}
+.bordalado{
+    border-right: 5px solid #E7BB00;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 280px;
+    color: rgb(0, 0, 0);
+    grid-template-columns: 280px;
+    grid-template-rows: 300px 100px 100px 100px 100px 100px 100px;
+    text-align: center;
+}
+
+.topico{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 5px solid #E7BB00;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    align-content: center;
+}
+#bot{
+    color: #ffffff;
+    background-color: #b80d0d;
+    border-radius: 10px;
+    height: 100px;
+    width: 350px;
+}
+
+ #tema{
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} 
+
+    .produtos {
+        text-align: center;
+        align-items: center;
+        display: grid;
+        margin-left: 300px; /* antes era 500px */
+        row-gap: 150px; /* mais harmonioso */
+        width: 1200px;
+        grid-template-columns: 1fr;
+    }
+
+
+.conteudo{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    column-gap: 110px;
+    row-gap: 200px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center; 
+    font-family: "Press Start 2P", system-ui;
+    color: #d2ac47;
+}
+#flutuante{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 70px;
+        height: 70px;
+    
+}
+.produtos img{
+    width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center; 
+}
+
+.produto{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 5px 15px #d2ac47;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#imagem{
+    text-align: center;
+    font-family: "Montserrat";
+}
+table{
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    margin:0 auto;
+    width: 520px;
+    height: 520px;
+}
+form{
+    border: 3px solid #b88a44;
+    margin:0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+}
+input,select,textarea{
+    border-radius: 10px;
+}
+button{
+    font-family: "Press Start 2P", system-ui;
+    background-color: #d2ac47;
+}
+.icones{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    flex-direction: row;
+}
+.r1{
+    margin: 30px;
+    padding: 20px;
+}
+.pagamento{
+    width: 30px;
+    height: 30px;
+}
+.designcorpo{
+    background-color: rgb(17, 17, 17);
+    color: #d2ac47;
+}
+#Copyright{
+    padding-left: 400px;
+}
